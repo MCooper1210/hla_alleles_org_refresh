@@ -1,10 +1,11 @@
 [
   {
     "gene": "A",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "-",
     "description": "HLA class I α-chain",
     "function": "Presents peptide antigens to the immune system",
+    "detailed_description": "HLA-A is a part of the human major histocompatibility complex (MHC) class I molecules, which present peptides from the cytoplasm to the immune system. This gene is responsible for immune response regulation and plays a crucial role in the defense against pathogens. It is highly polymorphic, contributing to individual immune system variation.",
     "refs": [
       {
         "alleleName": "A*01:01:01:01",
@@ -94,10 +95,11 @@
   },
   {
     "gene": "B",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "-",
     "description": "HLA class I α-chain",
     "function": "Involved in immune response by presenting intracellular antigens",
+    "detailed_description": "HLA-B is a key component of the human major histocompatibility complex (MHC) class I molecules. It is involved in presenting intracellular antigens to cytotoxic T cells, playing a significant role in immune system recognition and response. The gene exhibits high polymorphism, which affects individual immune responses and susceptibility to diseases.",
     "refs": [
       {
         "alleleName": "B*07:02:01:01",
@@ -115,426 +117,478 @@
   },
   {
     "gene": "C",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "-",
     "description": "HLA class I α-chain",
     "function": "Presents peptides derived from intracellular proteins to cytotoxic T cells",
+    "detailed_description": "HLA-C is part of the human major histocompatibility complex (MHC) class I molecules and plays a crucial role in presenting peptides from intracellular proteins to cytotoxic T cells. This gene contributes to immune surveillance and response, with its polymorphism influencing individual immune system responses and disease susceptibility.",
     "refs": []
   },
   {
     "gene": "E",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "E, 6.2",
     "description": "HLA class I α-chain associated with HLA class I 6.2-kB Hind III fragment",
     "function": "Modulates the activity of natural killer cells",
+    "detailed_description": "HLA-E is involved in the regulation of immune responses, particularly in the modulation of natural killer (NK) cell activity. It presents peptides derived from other class I molecules to NK cells, playing a role in immune tolerance and response. Its expression is important for the balance between immune activation and suppression.",
     "refs": []
   },
   {
     "gene": "F",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "F, 5.4",
     "description": "HLA class I α-chain associated with HLA class I 5.4-kB Hind III fragment",
     "function": "Plays a role in immune response and presenting antigenic peptides",
+    "detailed_description": "HLA-F is involved in antigen presentation and immune response regulation. It associates with the HLA class I 5.4-kB Hind III fragment and is expressed on some immune cells. This gene contributes to immune system function by presenting antigenic peptides and influencing interactions between cells of the immune system.",
     "refs": []
   },
   {
     "gene": "G",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "G, 6.0",
     "description": "HLA class I α-chain associated with HLA class I 6.0-kB Hind III fragment",
     "function": "Important for immune tolerance during pregnancy",
+    "detailed_description": "HLA-G is critical for maintaining immune tolerance during pregnancy. It plays a unique role by modulating maternal-fetal interactions and preventing maternal immune rejection of the fetus. HLA-G's expression is restricted to certain tissues, including the placenta, where it helps to protect the fetus from immune attacks.",
     "refs": []
   },
   {
     "gene": "H",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "H, AR, 12.4",
     "description": "HLA class I pseudogene associated with 5.4-kB Hind III fragment",
     "function": "Presents peptides to the immune system and modulates immune responses",
+    "detailed_description": "HLA-H is a pseudogene related to the HLA class I gene family. While it does not encode a functional protein, it is associated with the 5.4-kB Hind III fragment and may influence the expression or regulation of other HLA genes. Its role in immune responses is indirect, primarily through interactions with other genes in the HLA complex.",
     "refs": []
   },
   {
     "gene": "J",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "cda12",
     "description": "HLA class I pseudogene associated with 5.9-kB Hind III fragment",
     "function": "Contributes to immune system function by presenting peptides to T cells",
+    "detailed_description": "HLA-J is a pseudogene associated with the 5.9-kB Hind III fragment. Although it is non-functional, it may influence the expression or regulation of other HLA genes. Its presence and interaction with functional genes could affect immune system function and antigen presentation.",
     "refs": []
   },
   {
     "gene": "K",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "HLA-70",
     "description": "HLA class I pseudogene associated with 7.0-kB Hind III fragment",
     "function": "Participates in the presentation of antigens to the immune system",
+    "detailed_description": "HLA-K is a pseudogene within the HLA class I gene family. Although it does not produce a functional protein, it is associated with the 7.0-kB Hind III fragment and may have a role in the regulation or expression of other HLA genes. Its influence on antigen presentation is indirect, affecting immune system function through genetic interactions.",
     "refs": []
   },
   {
     "gene": "L",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "HLA-92",
     "description": "HLA class I pseudogene associated with 9.2-kB Hind III fragment",
     "function": "Plays a role in immune system regulation",
+    "detailed_description": "HLA-L is a pseudogene associated with the 9.2-kB Hind III fragment. While it does not encode a functional protein, it may contribute to immune system regulation by interacting with other HLA genes. Its presence in the genome can affect the expression of functional HLA molecules and influence immune responses.",
     "refs": []
   },
   {
     "gene": "N",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "HLA-30",
     "description": "HLA class I gene fragment associated with a 1.7-kB Hind III fragment",
     "function": "Contributes to the immune response through antigen presentation",
+    "detailed_description": "HLA-N is a gene fragment related to the HLA class I family, associated with a 1.7-kB Hind III fragment. It is involved in the presentation of antigens to the immune system, contributing to immune response. Although it is a fragment, it may play a role in the regulation or expression of other HLA genes.",
     "refs": []
   },
   {
     "gene": "P",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "HLA-90",
     "description": "HLA class I gene fragment associated with 9.0-kB Hind III fragment",
     "function": "Involved in the modulation of immune responses",
+    "detailed_description": "HLA-P is a gene fragment within the HLA class I family, associated with the 9.0-kB Hind III fragment. It is involved in the modulation of immune responses by contributing to antigen presentation. Its role may influence the regulation of other HLA genes and the overall immune system function.",
     "refs": []
   },
   {
     "gene": "R",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "HLA-OLI",
     "description": "HLA class I gene fragment",
     "function": "Associated with immune system function and antigen presentation",
+    "detailed_description": "HLA-R is a gene fragment within the HLA class I family. It plays a role in immune system function by participating in antigen presentation. Its influence on immune responses is indirect, through interactions with other HLA genes and molecules involved in immune surveillance.",
     "refs": []
   },
   {
     "gene": "S",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "HLA-17",
     "description": "HLA class I gene fragment associated with a 3.0-kB Hind III fragment",
     "function": "Contributes to the presentation of intracellular antigens",
+    "detailed_description": "HLA-S is a gene fragment related to the HLA class I family, associated with a 3.0-kB Hind III fragment. It contributes to the immune response by presenting intracellular antigens. Its presence may affect the regulation and expression of other HLA genes involved in antigen presentation.",
     "refs": []
   },
   {
     "gene": "T",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "HLA-16",
     "description": "HLA class I gene fragment associated with 16.0-kB Hind III fragment",
     "function": "Plays a role in the immune system's response to pathogens",
+    "detailed_description": "HLA-T is a gene fragment within the HLA class I family, associated with a 16.0-kB Hind III fragment. It is involved in the immune system's response to pathogens by presenting peptides to T cells. Its role in antigen presentation can influence immune system function and pathogen recognition.",
     "refs": []
   },
   {
     "gene": "U",
-    "HLA": "yes",
-    "previous_equivalent": "HLA-21",
-    "description": "HLA class I gene fragment associated with 2.1-kB Hind III fragment",
-    "function": "Involved in the modulation of immune responses",
+    "HLA": "true",
+    "previous_equivalent": "HLA-40",
+    "description": "HLA class I gene fragment associated with 4.0-kB Hind III fragment",
+    "function": "Affects immune response and antigen presentation",
+    "detailed_description": "HLA-U is a gene fragment related to the HLA class I family, associated with a 4.0-kB Hind III fragment. It affects immune response and antigen presentation by interacting with other HLA genes. Its role in immune system function is primarily through its influence on antigen presentation and immune regulation.",
     "refs": []
   },
   {
     "gene": "V",
-    "HLA": "yes",
-    "previous_equivalent": "HLA-75",
-    "description": "HLA class I gene fragment associated with 7.5-kB Hind III fragment",
-    "function": "Plays a role in immune system function",
+    "HLA": "true",
+    "previous_equivalent": "HLA-15",
+    "description": "HLA class I gene fragment associated with 15.0-kB Hind III fragment",
+    "function": "Participates in antigen presentation and immune system regulation",
+    "detailed_description": "HLA-V is a gene fragment within the HLA class I family, associated with a 15.0-kB Hind III fragment. It participates in antigen presentation and immune system regulation, influencing how the immune system responds to pathogens. Its presence may affect the expression and function of other HLA molecules.",
     "refs": []
   },
   {
     "gene": "W",
-    "HLA": "yes",
-    "previous_equivalent": "HLA-80",
-    "description": "HLA class I gene fragment associated with 8.0-kB Hind III fragment",
-    "function": "Associated with antigen processing and presentation",
+    "HLA": "true",
+    "previous_equivalent": "HLA-14",
+    "description": "HLA class I gene fragment associated with 14.0-kB Hind III fragment",
+    "function": "Contributes to immune response through antigen presentation",
+    "detailed_description": "HLA-W is a gene fragment within the HLA class I family, associated with a 14.0-kB Hind III fragment. It contributes to immune response by participating in antigen presentation. Its role in the immune system involves interaction with other HLA genes and molecules to modulate immune responses.",
     "refs": []
   },
   {
     "gene": "X",
-    "HLA": "yes",
-    "previous_equivalent": "HLA-X",
-    "description": "HLA class I gene fragment",
-    "function": "Contributes to immune system function",
+    "HLA": "true",
+    "previous_equivalent": "HLA-13",
+    "description": "HLA class I gene fragment associated with 13.0-kB Hind III fragment",
+    "function": "Modulates immune response and antigen presentation",
+    "detailed_description": "HLA-X is a gene fragment related to the HLA class I family, associated with a 13.0-kB Hind III fragment. It modulates immune response and antigen presentation by interacting with other HLA genes. Its influence on immune function is through its role in presenting peptides and regulating immune system activity.",
     "refs": []
   },
   {
     "gene": "Y",
-    "HLA": "yes",
-    "previous_equivalent": "HLA-BEL/COQ/DEL",
-    "description": "HLA class I pseudogene",
-    "function": "Participates in immune regulation",
+    "HLA": "true",
+    "previous_equivalent": "HLA-12",
+    "description": "HLA class I gene fragment associated with 12.0-kB Hind III fragment",
+    "function": "Contributes to immune system function through peptide presentation",
+    "detailed_description": "HLA-Y is a gene fragment within the HLA class I family, associated with a 12.0-kB Hind III fragment. It plays a role in immune system function by contributing to peptide presentation. Its presence may affect the regulation and expression of other HLA genes and influence immune responses.",
     "refs": []
   },
   {
     "gene": "Z",
-    "HLA": "yes",
-    "previous_equivalent": "HLA-Z1",
-    "description": "HLA class I gene fragment located within the HLA HLA class II region",
-    "function": "Involved in antigen presentation to the immune system",
+    "HLA": "true",
+    "previous_equivalent": "HLA-11",
+    "description": "HLA class I gene fragment associated with 11.0-kB Hind III fragment",
+    "function": "Participates in the regulation of immune responses",
+    "detailed_description": "HLA-Z is a gene fragment related to the HLA class I family, associated with an 11.0-kB Hind III fragment. It participates in the regulation of immune responses by influencing peptide presentation and immune system interactions. Its role is significant in modulating immune function and response to pathogens.",
     "refs": []
   },
   {
     "gene": "DRA",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRα",
     "description": "DR α-chain",
     "function": "Involved in the presentation of peptides to T cells",
+    "detailed_description": "DRA is part of the HLA class II molecules and contributes to antigen presentation to T cells. The DR α-chain pairs with DR β-chains to form functional HLA-DR molecules, which are essential for the immune system's ability to recognize and respond to foreign antigens.",
     "refs": []
   },
   {
     "gene": "DRB1",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRβI, DR1B",
     "description": "DR β1-chain determining specificities DR1, DR2, DR3, DR4, DR5 etc",
     "function": "Plays a critical role in presenting antigens to helper T cells",
+    "detailed_description": "DRB1 is a crucial component of the HLA class II molecules, forming the β-chain of the HLA-DR complexes. It determines the specificity of these molecules and is key for the immune system's ability to present a wide range of antigens to helper T cells, influencing immune responses and susceptibility to diseases.",
     "refs": []
   },
   {
     "gene": "DRB2",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRβII",
     "description": "Pseudogene with DR β-like sequences",
     "function": "Non-functional gene related to immune response",
+    "detailed_description": "DRB2 is a pseudogene related to the DR β-chain genes but does not encode a functional protein. It shares similarities with functional DR β-chain genes but lacks the ability to contribute to antigen presentation, thus having no direct impact on immune function.",
     "refs": []
   },
   {
     "gene": "DRB3",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRβIII, DR3B",
     "description": "DR β3-chain determining DR52 and Dw24, Dw25, Dw26 specificities",
     "function": "Involved in antigen presentation and immune response",
+    "detailed_description": "DRB3 encodes the β3-chain of the HLA-DR molecules, contributing to the formation of HLA-DR complexes with specific antigenic specificities such as DR52 and Dw24, Dw25, Dw26. It plays a role in antigen presentation and influencing the immune response.",
     "refs": []
   },
   {
     "gene": "DRB4",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRβIV, DR4B",
     "description": "DR β4-chain determining DR53",
     "function": "Plays a role in presenting antigens to T cells",
+    "detailed_description": "DRB4 encodes the β4-chain of HLA-DR molecules and is involved in presenting antigens to T cells. This gene contributes to the diversity of antigen presentation by the HLA class II system and affects immune system responses.",
     "refs": []
   },
   {
     "gene": "DRB5",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRβIII",
     "description": "DR β5-chain determining DR51",
     "function": "Involved in immune system's ability to recognize foreign molecules",
+    "detailed_description": "DRB5 encodes the β5-chain of the HLA-DR molecules and contributes to the specificity of antigen presentation, particularly determining the DR51 specificity. This gene is involved in the immune system's ability to recognize and respond to foreign molecules.",
     "refs": []
   },
   {
     "gene": "DRB6",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRBX, DRBσ",
     "description": "DRB pseudogene found on DR1, DR2 and DR10 haplotypes",
     "function": "Non-functional gene related to the DRB family",
+    "detailed_description": "DRB6 is a pseudogene related to the DRB family and is found on various HLA haplotypes. It lacks functional activity and does not contribute to antigen presentation or immune responses.",
     "refs": []
   },
   {
     "gene": "DRB7",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRBψ1",
     "description": "DRB pseudogene found on DR4, DR7 and DR9 haplotypes",
     "function": "Non-functional gene related to the DRB family",
+    "detailed_description": "DRB7 is a pseudogene found on DR4, DR7, and DR9 haplotypes, and is related to the DRB gene family. It is non-functional and does not participate in antigen presentation or immune responses.",
     "refs": []
   },
   {
     "gene": "DRB8",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DRBψ2",
     "description": "DRB pseudogene found on DR4, DR7 and DR9 haplotypes",
     "function": "Non-functional gene related to the DRB family",
+    "detailed_description": "DRB8 is a pseudogene similar to DRB7, found on DR4, DR7, and DR9 haplotypes. It is non-functional and does not contribute to antigen presentation or immune responses.",
     "refs": []
   },
   {
     "gene": "DRB9",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "M4.2 β exon",
     "description": "DRB pseudogene, isolated fragment",
     "function": "Non-functional gene fragment related to DRB",
+    "detailed_description": "DRB9 is a pseudogene and an isolated fragment related to the DRB gene family. It is non-functional and does not contribute to the antigen presentation process or immune responses.",
     "refs": []
   },
   {
     "gene": "DQA1",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DQα1, DQ1A",
     "description": "DQ α-chain as expressed",
     "function": "Involved in presenting antigens to the immune system",
+    "detailed_description": "DQA1 encodes the α-chain of the HLA-DQ molecules. It plays a crucial role in antigen presentation by pairing with the β-chain of DQB1 to form functional DQ molecules, which present peptides to the immune system.",
     "refs": []
   },
   {
     "gene": "DQB1",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DQβ1, DQ1B",
     "description": "DQ β-chain as expressed",
     "function": "Works with DQα to present antigens to T cells",
+    "detailed_description": "DQB1 encodes the β-chain of the HLA-DQ molecules. It pairs with the α-chain of DQA1 to form functional DQ molecules, which are essential for presenting peptides to T cells and influencing immune responses.",
     "refs": []
   },
   {
     "gene": "DQA2",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DXα, DQ2A",
     "description": "DQ α-chain-related sequence",
     "function": "Related to antigen presentation, but not as widely expressed",
+    "detailed_description": "DQA2 is related to the DQA1 gene but is not as widely expressed. It encodes a similar α-chain for the DQ molecules and may play a role in antigen presentation, though its functional significance is less pronounced compared to DQA1.",
     "refs": []
   },
   {
     "gene": "DQB2",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DXβ, DQ2B",
     "description": "DQ β-chain-related sequence",
     "function": "Related to immune function and antigen presentation",
+    "detailed_description": "DQB2 encodes a β-chain related to the DQB1 gene and is involved in antigen presentation. While not as widely expressed as DQB1, it may contribute to immune function and the presentation of peptides.",
     "refs": []
   },
   {
     "gene": "DQB3",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DVβ, DQB3",
     "description": "DQ β-chain-related sequence, not known to be expressed",
     "function": "Potentially involved in immune response",
+    "detailed_description": "DQB3 is related to the DQB1 gene but is not known to be expressed. It is a β-chain-related sequence that may have a role in immune responses, although its functional contribution remains unclear.",
     "refs": []
   },
   {
     "gene": "DOA",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DZα, DOα, DNA",
     "description": "DO α-chain",
     "function": "Involved in the regulation of MHC HLA class II expression",
+    "detailed_description": "DOA encodes the α-chain of the HLA-DO molecules, which play a role in regulating the expression and activity of MHC class II molecules. It influences antigen presentation and the overall immune response by modulating the availability of antigenic peptides.",
     "refs": []
   },
   {
     "gene": "DOB",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DOβ",
     "description": "DO β-chain",
     "function": "Regulates the activity of other MHC HLA class II molecules",
+    "detailed_description": "DOB encodes the β-chain of the HLA-DO molecules, which are involved in regulating the activity of other MHC class II molecules. It impacts antigen presentation and immune responses by influencing the processing and presentation of peptides.",
     "refs": []
   },
   {
     "gene": "DMA",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "RING6",
     "description": "DM α-chain",
     "function": "Involved in the processing and presentation of peptides by MHC HLA class II",
+    "detailed_description": "DMA encodes the α-chain of the HLA-DM molecules, which are crucial for the processing and presentation of peptides by MHC class II. It facilitates the editing of peptides loaded onto MHC class II molecules, enhancing antigen presentation to T cells.",
     "refs": []
   },
   {
     "gene": "DMB",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "RING7",
     "description": "DM β-chain",
     "function": "Functions in peptide editing for MHC HLA class II presentation",
+    "detailed_description": "DMB encodes the β-chain of the HLA-DM molecules, which work in conjunction with DMA to edit peptides bound to MHC class II molecules. This process is critical for ensuring the accurate presentation of antigens to T cells and modulating immune responses.",
     "refs": []
   },
   {
     "gene": "DPA1",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DPα1, DP1A",
     "description": "DP α-chain as expressed",
     "function": "Works with DPβ to present peptides to the immune system",
+    "detailed_description": "DPA1 encodes the α-chain of the HLA-DP molecules. It pairs with the β-chain of DPB1 to form functional DP molecules, which are involved in presenting peptides to the immune system and influencing immune responses.",
     "refs": []
   },
   {
     "gene": "DPB1",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DPβ1, DP1B",
     "description": "DP β-chain as expressed",
     "function": "Crucial for the presentation of antigens to helper T cells",
+    "detailed_description": "DPB1 encodes the β-chain of the HLA-DP molecules. It pairs with the α-chain of DPA1 to form functional DP molecules, which play a critical role in presenting antigens to helper T cells and modulating immune responses.",
     "refs": []
   },
   {
     "gene": "DPA2",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DPα2, DP2A",
     "description": "DP α-chain-related pseudogene",
     "function": "Related to immune response, but not expressed",
+    "detailed_description": "DPA2 is a pseudogene related to the DPA1 gene. Although it shares similarities with DPA1, it is not expressed and does not contribute to antigen presentation or immune responses.",
     "refs": []
   },
   {
     "gene": "DPB2",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DPβ2, DP2B",
     "description": "DP β-chain-related pseudogene",
     "function": "Related to immune response, but not expressed",
+    "detailed_description": "DPB2 is a pseudogene related to the DPB1 gene. It has similarities to the functional β-chain of DPB1 but is not expressed, thus not participating in antigen presentation or immune responses.",
     "refs": []
   },
   {
     "gene": "DPA3",
-    "HLA": "yes",
+    "HLA": "true",
     "previous_equivalent": "DPA3",
     "description": "DP α-chain-related pseudogene",
     "function": "Related to immune response, but not expressed",
+    "detailed_description": "DPA3 is a pseudogene related to the DPA1 gene. It is not expressed and does not contribute to the antigen presentation process or immune responses.",
     "refs": []
   },
   {
     "gene": "HFE",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "High Fe",
     "description": "HLA class I-like gene",
     "function": "Regulates iron absorption in the body",
+    "detailed_description": "HFE is a gene related to the HLA class I family but is not involved in antigen presentation. It plays a crucial role in regulating iron absorption and metabolism in the body, influencing conditions like hemochromatosis.",
     "refs": []
   },
   {
     "gene": "TAP1",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "ABCB2, RING4, Y3, PSF1",
     "description": "ABC (ATP Binding Cassette) transporter",
     "function": "Involved in peptide transport across the endoplasmic reticulum membrane",
+    "detailed_description": "TAP1 encodes an ATP-binding cassette transporter involved in transporting peptides into the endoplasmic reticulum. This process is essential for loading peptides onto MHC class I molecules for presentation to cytotoxic T cells.",
     "refs": []
   },
   {
     "gene": "TAP2",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "ABCB3, RING11, Y1, PSF2",
     "description": "ABC (ATP Binding Cassette) transporter",
     "function": "Works with TAP1 in antigen processing",
+    "detailed_description": "TAP2 encodes a component of the ATP-binding cassette transporter complex that works with TAP1. It plays a key role in transporting peptides into the endoplasmic reticulum for loading onto MHC class I molecules, crucial for antigen processing and presentation.",
     "refs": []
   },
   {
     "gene": "PSMB9",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "LMP2, RING12",
     "description": "Proteasome-related sequence",
     "function": "Involved in the degradation of proteins, essential for antigen processing",
+    "detailed_description": "PSMB9 encodes a subunit of the proteasome, which is involved in the degradation of proteins. This process is essential for generating peptides that are then presented by MHC class I molecules, playing a critical role in antigen processing.",
     "refs": []
   },
   {
     "gene": "PSMB8",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "LMP7, RING10",
     "description": "Proteasome-related sequence",
     "function": "Crucial for the production of peptides presented by MHC HLA class I",
+    "detailed_description": "PSMB8 encodes a subunit of the proteasome, which is essential for producing peptides that are presented by MHC class I molecules. This gene is crucial for the efficient processing of antigens and their presentation to cytotoxic T cells.",
     "refs": []
   },
   {
     "gene": "MICA",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "MICA, PERB11.1",
     "description": "HLA class I chain-related gene",
     "function": "Involved in the activation of natural killer cells and certain T cells",
+    "detailed_description": "MICA encodes a gene related to the HLA class I family and is involved in activating natural killer cells and certain T cells. It plays a role in the immune system by influencing the recognition and response to stressed or infected cells.",
     "refs": []
   },
   {
     "gene": "MICB",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "MICB, PERB11.2",
     "description": "HLA class I chain-related gene",
     "function": "Works with MICA in immune response activation",
+    "detailed_description": "MICB is related to the MICA gene and contributes to immune response activation. It works in conjunction with MICA to influence the activity of natural killer cells and certain T cells, impacting the immune system's response to altered or infected cells.",
     "refs": []
   },
   {
     "gene": "MICC",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "MICC, PERB11.3",
     "description": "HLA class I chain-related pseudogene",
     "function": "Non-functional gene related to MICA/MICB",
+    "detailed_description": "MICC is a pseudogene related to MICA and MICB, with no functional role in antigen presentation or immune activation. It represents a non-functional segment of the HLA class I chain-related genes.",
     "refs": []
   },
   {
     "gene": "MICD",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "MICD, PERB11.4",
     "description": "HLA class I chain-related pseudogene",
     "function": "Non-functional gene related to MICA/MICB",
+    "detailed_description": "MICD is a pseudogene related to MICA and MICB, lacking functional activity. It represents a non-functional part of the HLA class I chain-related genes and does not contribute to immune responses.",
     "refs": []
   },
   {
     "gene": "MICE",
-    "HLA": "no",
+    "HLA": "false",
     "previous_equivalent": "MICE, PERB11.5",
     "description": "HLA class I chain-related pseudogene",
     "function": "Non-functional gene related to MICA/MICB",
-    "refs": []
+    "detailed_description": "MICE is a pseudogene similar to MICC and MICD, with no functional role in the HLA class I chain-related gene family. It is a non-functional gene that does not participate in antigen presentation or immune activation."
   }
 ]

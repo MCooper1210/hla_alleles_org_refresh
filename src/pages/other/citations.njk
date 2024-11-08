@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-permalink: /pages/other/citations.html
+permalink: pages/other/citations/
 eleventyNavigation:
   parent: "Other"
   key: "Citations"
@@ -8,3 +8,37 @@ title: Citations
 h1: Citations
 p: How to cite the website?
 ---
+
+{% from "src/components/heading.njk" import heading %}
+{% from "src/components/paragraph.njk" import paragraph %}
+{% from "src/components/list.njk" import list %}
+
+{{ paragraph('For all citations to this website please use:') }}
+
+{{ list([
+  "<em>Robinson J, Malik A, Parham P, Bodmer JG, Marsh SGE</em>",
+  "IMGT/HLA - a sequence database for the human major histocompatibility complex.",
+  "<em>Tissue Antigens</em>. 2000 <strong>55</strong>:280-7"
+], false, true) }}
+
+{{ list([
+  "<em>Barker D, Maccari G, Georgiou X, Cooper M, Flicek P, Robinson J, Marsh SGE</em>",
+  "The IPD-IMGT/HLA Database",
+  "<em>Nucleic Acids Research</em>. (2023) <strong>51 (D1)</strong>:D948-955"
+], false, true) }}
+
+{{ list([
+  "<em>Robinson J, Barker D, Marsh SGE </em>",
+  "25 years of the IPD-IMGT/HLA Database.",
+  "<em>HLA</em>. (2024) <strong>103 (6)</strong>:e15549"
+], false, true) }}
+
+{{ paragraph('For all citations regarding HLA nomenclature please use :') }}
+
+{{ list([
+  "<em>SGE Marsh, ED Albert, WF Bodmer, RE Bontrop, B Dupont, HA Erlich, M Fernández-Vina, DE Geraghty, R Holdsworth, CK Hurley, M Lau, KW Lee, B Mach, WR Mayr, M Maiers, CR Müller, P Parham, EW Petersdorf, T Sasazuki, JL Strominger, A Svejgaard, PI Terasaki, JM Tiercy, J Trowsdale</em>",
+  "Nomenclature for factors of the HLA system, 2010",
+  "<em>Tissue Antigens</em>. 2010 <strong>75</strong>:291-455"
+], false, true) }}
+
+{{ paragraph('Full Text PDF available from Wiley Interscience (<a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1399-0039.2010.01466.x">Download PDF</a>)') }}

@@ -1,6 +1,11 @@
 ---
 layout: base.njk
-permalink: "/pages/genes/gene_refs/{{ item.gene }}_refs.html"
+eleventyComputed:
+  permalink: "/pages/genes/gene_refs/{{ item.gene }}_refs/"
+  eleventyNavigation:
+    parent: [{ title: "Genes List", url: "pages/genes/genes_list/" }]
+    key: "{{ item.HLA == 'true' and '/ HLA-' + item.gene + ' references' or item.gene + ' references' }}"
+    title: "{{ item.gene }}"
 pagination:
   data: genes
   size: 1
@@ -9,47 +14,54 @@ excludeWelcome: true
 ---
 
 <div class="background_naming">
-  <div class="welcome d-flex justify-content-center align-items-center" style="height: 10vh;">
-  </div>
+  <div
+    class="welcome d-flex justify-content-center align-items-center"
+    style="height: 10vh"
+  ></div>
 </div>
 
 <section class="welcome container-fluid py-5">
   <h1 class="text-center text-dark">HLA-{{ item.gene }} References</h1>
-  <h2 class="text-center text-dark">Table of references for {{ item.gene }} alleles</h2>
+  <h2 class="text-center text-dark">
+    Table of references for {{ item.gene }} alleles
+  </h2>
   {% if item.refs and item.refs.length %}
-    <div style="overflow-x: auto;">
-      <table class="table table-striped text-left mt-4" style="width: 100%; max-width: 1200px; margin: 0 auto;">
-        <thead>
-          <tr>
-            <th class="text-nowrap">Allele Name</th>
-            <th class="text-nowrap">Cell ID</th>
-            <th class="text-nowrap">HLA ID</th>
-            <th class="text-nowrap">Authors</th>
-            <th class="text-nowrap">Title</th>
-            <th class="text-nowrap">Journal</th>
-            <th class="text-nowrap">Year</th>
-            <th class="text-nowrap">Vol</th>
-            <th class="text-nowrap">Pages</th>
-            <th class="text-nowrap">Contact</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for ref in item.refs %}
-          <tr>
-            <td>{{ ref.alleleName }}</td>
-            <td>{{ ref.cellID }}</td>
-            <td>{{ ref.hlaID }}</td>
-            <td>{{ ref.authors }}</td>
-            <td>{{ ref.title }}</td>
-            <td>{{ ref.journal }}</td>
-            <td>{{ ref.year }}</td>
-            <td>{{ ref.vol }}</td>
-            <td>{{ ref.pages }}</td>
-            <td>{{ ref.contact }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+  <div style="overflow-x: auto">
+    <table
+      class="table table-striped text-left mt-4"
+      style="width: 100%; max-width: 1200px; margin: 0 auto"
+    >
+      <thead>
+        <tr>
+          <th class="text-nowrap">Allele Name</th>
+          <th class="text-nowrap">Cell ID</th>
+          <th class="text-nowrap">HLA ID</th>
+          <th class="text-nowrap">Authors</th>
+          <th class="text-nowrap">Title</th>
+          <th class="text-nowrap">Journal</th>
+          <th class="text-nowrap">Year</th>
+          <th class="text-nowrap">Vol</th>
+          <th class="text-nowrap">Pages</th>
+          <th class="text-nowrap">Contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for ref in item.refs %}
+        <tr>
+          <td>{{ ref.alleleName }}</td>
+          <td>{{ ref.cellID }}</td>
+          <td>{{ ref.hlaID }}</td>
+          <td>{{ ref.authors }}</td>
+          <td>{{ ref.title }}</td>
+          <td>{{ ref.journal }}</td>
+          <td>{{ ref.year }}</td>
+          <td>{{ ref.vol }}</td>
+          <td>{{ ref.pages }}</td>
+          <td>{{ ref.contact }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
   {% endif %}
 </section>

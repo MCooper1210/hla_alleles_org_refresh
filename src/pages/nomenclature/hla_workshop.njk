@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-permalink: /pages/nomenclature/hla_workshops.html
+permalink: /pages/nomenclature/hla_workshops
 eleventyNavigation:
   parent: "Nomenclature"
   key: "HLA Workshops"
@@ -8,3 +8,33 @@ title: HLA Workshops
 h1: HLA Workshops
 p: The Nomenclature Committee has convened at a number of the following International HLA Workshops
 ---
+
+{% from "src/components/paragraph.njk" import paragraph %}
+{% from "src/components/table.njk" import table %}
+
+{{ paragraph('The Nomenclature Committee has convened at a number of the following International HLA Workshops:') }}
+
+{% set headers = ["Workshop", "Year", "Chair", "Venue", "Advances"] %}
+
+{% set rows = [
+  ["1st", "1964", "DB Amos", "Durham, USA", "Definition of 'Hu-1', 'LA' and 'Four' antigen specificities"],
+  ["2nd", "1965", "JJ van Rood", "Leiden, The Netherlands", "Mixed lymphocyte culture testing"],
+  ["3rd", "1967", "R Ceppellini", "Torino, Italy", "Family studies; HLA in renal transplantation"],
+  ["4th", "1970", "PI Terasaki", "Los Angeles, USA", "Definition of 27 HLA-A, HLA-B and HLA-C specificities"],
+  ["5th", "1972", "J Dausset", "Evian, France", "Worldwide typing of 49 populations"],
+  ["6th", "1975", "F Kissmeyer-Nielsen", "Aarhus, Denmark", "Description of Dw specificities"],
+  ["7th", "1977", "WF Bodmer", "Oxford, UK", "Definition of DR1-7 specificities; HTC testing"],
+  ["8th", "1980", "PI Terasaki", "Los Angeles, USA", "Definition of MB (DQ) and MT (DR52/53); HLA in transplantation and disease"],
+  ["9th", "1984", "EA Albert/W Mayr", "Munich, Germany / Vienna, Austria", "New class I and II specificities; HLA class II in renal transplantation"],
+  ["10th", "1987", "B Dupont", "Princeton, USA", "Establishment of RFLP; T cell clones; HTC methods; Biochemistry 1D IEF, 2D-gels; Creation of a panel of homozygous cell lines"],
+  ["11th", "1991", "T Sasazuki/K Tsuji/M Aizawa", "Yokohama, Japan", "HLA Class II PCR DNA typing; Anthropology"],
+  ["12th", "1996", "D Charron", "St Malo/Paris, France", "HLA Class I PCR DNA typing; Anthropology"],
+  ["13th", "2002", "J Hansen", "Victoria, Canada / Seattle, USA", "Virtual DNA analysis; Identification of SNP markers; Anthropology; Disease association; HSCT"],
+  ["14th", "2005", "J McCluskey", "Melbourne, Australia", "MHC and anthropology; Disease; Infection; HSCT; Cancer; KIR; Cytokine genes"],
+  ["15th", "2008", "M Gerbase de Lima/ME Moraes", "Buzios/Rio de Janeiro, Brazil", "Anthropology; HSCT; Informatics"],
+  ["16th", "2012", "SGE Marsh/D Middleton", "Liverpool, UK", "NGS, HSCT"],
+  ["17th", "2017", "M Fernandez-Viña", "Asilomar, USA", "NGS, HSCT"],
+  ["18th", "2021", "S Heidt/E Spierings", "Amsterdam, The Netherlands", "To be determined"]
+] %}
+
+{{ table(headers, rows) }}

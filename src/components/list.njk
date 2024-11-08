@@ -1,12 +1,12 @@
-{% macro list(items, isOrdered=false) %}
+{% macro list(items, isOrdered=false, styleNone=false) %}
     {% if isOrdered %}
-        <ol>
+        <ol{% if styleNone %} style="list-style: none;"{% endif %}>
             {% for item in items %}
                 <li>{{ item | safe }}</li>
             {% endfor %}
         </ol>
     {% else %}
-        <ul>
+        <ul{% if styleNone %} style="list-style: none;"{% endif %}>
             {% for item in items %}
                 <li>{{ item | safe }}</li>
             {% endfor %}

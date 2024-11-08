@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-permalink: /pages/other/definitions.html
+permalink: pages/other/definitions/
 eleventyNavigation:
   parent: "Other"
   key: "Definitions"
@@ -8,6 +8,42 @@ title: Definitions
 h1: Definitions
 p: Definitions and standards
 ---
-<div class="container mb-3">
-  The HLA Informatics Group would like to draw attention to the following papers on Definitions and Standards.
-</div>
+
+{% from "src/components/paragraph.njk" import paragraph %}
+{% from "src/components/heading.njk" import heading %}
+{% from "src/components/list.njk" import list %}
+
+{{ paragraph('The HLA Informatics Group would like to draw attention to the following papers on Definitions and Standards.') }}
+
+{{ heading('Definitions of Histocompatibility Typing Terms') }}
+{{ list([ 
+  "<em>Nunes E, Heslop H, Fernandez-Vina M, Taves C, Wagenknecht DR, Eisenbrey AB, Fischer G, Poulton K, Wacker K, Hurley CK, Noreen H, Sacchi N.</em>", 
+  "<em>Human Immunology</em>. 2011 <strong>72</strong>:1214-6",
+  "<em>Blood</em>. 2011 <strong>118</strong>:e180-3"
+], false, true) }}
+
+{{ heading('Abstract') }}
+{{ paragraph('Histocompatibility testing for stem cell and solid organ transplantation has become increasingly complex as newly discovered human leukocyte antigen (HLA) alleles are described. HLA typing assignments reported by laboratories are used by physicians and donor registries for matching donors and recipients. To communicate effectively, a common language for histocompatibility terms should be established. In early 2010, representatives from clinical, registry, and histocompatibility organizations joined together as the Harmonization of Histocompatibility Typing Terms Working Group to define a consensual language for laboratories, physicians and registries to communicate histocompatibility typing information. The Working Group defined terms for HLA typing resolution, HLA matching and a format for reporting HLA assignments. In addition, definitions of verification typing and extended typing were addressed. The original draft of the Definitions of Histocompatibility Typing Terms was disseminated to colleagues from each organization to gain feedback and create a collaborative document. Commentary gathered during this 90-day review period were discussed and implemented for preparation of this report. Histocompatibility testing continues to evolve thus, the definitions agreed upon today, likely will require refinement and perhaps additional terminology in the future.') }}
+
+{{ paragraph('Click <a href="https://www.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271332&_user=10&_pii=S0198885911001467&_check=y&_origin=&_coverDate=31-Dec-2011&view=c&wchp=dGLzVlt-zSkzS&md5=5d36cd36b926ce634a8fc0aaddd97464/1-s2.0-S0198885911001467-main.pdf">here</a> to download a copy of this report as published in Human Immunology is available courtesy of <a href="https://www.elsevier.com/">Elsevier</a>.') }}
+
+{{ paragraph('<h1>LINK ABOVE DOES NOT WORK</h1>') }}
+
+{{ heading('A community standard for immunogenomic data reporting and analysis: proposal for a Strengthening the Reporting of Immunogenomic Studies statement') }}
+{{ list([ 
+  "<em>Hollenbach JA, Mack SJ, Gourraud PA, Single RM, Maiers M, Middleton D, Thomson G, Marsh SGE, Varney MD. for the Immunogenomics Data Analysis Working Group</em>", 
+  "<em>Tissue Antigens</em>. 2011 <strong>78</strong>:333-44"
+], false, true) }}
+
+{{ heading('Abstract') }}
+{{ paragraph('Modern high-throughput HLA and KIR typing technologies are generating a wealth of immunogenomic data with the potential to revolutionize the fields of histocompatibility and immune-related disease association and population genetic research, much as SNP-based approaches have revolutionized association research. The STrengthening the REporting of Genetic Association studies (STREGA) statement provides community-based data reporting and analysis standards for genomic disease-association studies, identifying specific areas in which adoption of reporting guidelines can improve the consistent interpretation of genetic studies. While aspects of STREGA can be applied to immunogenomic studies, HLA and KIR research requires additional consideration, as the high levels of polymorphism associated with immunogenomic data pose unique methodological and computational challenges to the synthesis of information across datasets. Here, we outline the principle challenges to consistency in immunogenomic studies, and propose that an immunogenomic-specific analog to the STREGA statement, a STrengthening the REporting of Immunogenomic Studies (STREIS) statement, be developed as part of the 16th International HLA and Immunogenetics Workshop. We propose that STREIS extends at least four of the 22 elements of the STREGA statement to specifically address issues pertinent to immunogenomic data: HLA and KIR nomenclature, data-validation, ambiguity resolution, and the analysis of highly polymorphic genetic systems. As with the STREGA guidelines, the intent behind STREIS is not to dictate the design of immunogenomic studies, but to ensure consistent and transparent reporting of research, facilitating the synthesis of HLA and KIR data across studies.') }}
+
+{{ paragraph('Click <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1399-0039.2011.01777.x">here</a> to download a copy of this report as published in Tissue Antigens.') }}
+
+{{ heading('Guidelines for nomenclature usage in HLA reports: ambiguities and conversion to serotypes') }}
+{{ list([ 
+  "<em>Tiercy JM, Marsh SGE, Schreuder GMTh, Albert E, Fischer G, Wassmuth R. (European Federation for Immunogenetics subcommittee for reporting HLA ambiguities)</em>", 
+  "<em>European Journal of Immunogenetics</em>. 2002 <strong>29</strong>:273-4"
+], false, true) }}
+
+{{ paragraph('Click <a href="https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1365-2370.2002.00336.x">here</a> to download a copy of this report as published in European Journal of Immunogenetics (subscription required).') }}

@@ -1,43 +1,55 @@
 ---
 layout: base.njk
-permalink: /pages/genes/genes_list.html
+permalink: pages/genes/genes_list/
 eleventyNavigation:
-  parent: "Genes"
   key: "Genes List"
 title: Genes List
 h1: Genes List
 p: A Table of Named Genes within the HLA Region
 ---
 
-      <table class="table table-striped text-left  mb-5" style="width: 100%; max-width: 1400px; margin: 0 auto;">
-  <thead>
+<table
+  class="table table-striped text-left mb-5"
+  style="width: 100%; max-width: 1400px; margin: 0 auto"
+>
+  <thead class="theadblue">
     <tr>
-      <th class="nowrap">Gene</th>
-      <th class="nowrap">Previous Equivalent</th>
-      <th class="nowrap">Description</th>
-      <th class="nowrap">Function</th>
-      <th class="nowrap">Refs</th>
+      <th class="nowrap text-light">Gene</th>
+      <th class="nowrap text-light">Previous Equivalent</th>
+      <th class="nowrap text-light">Description</th>
+      <th class="nowrap text-light">Function</th>
+      <th class="nowrap text-light">Refs</th>
     </tr>
   </thead>
   <tbody>
     {% for gene in genes %}
     <tr>
       <td>
-        {% if gene.HLA == 'yes' %}
-          <a href="/pages/genes/gene_pages/{{ gene.gene }}.html">HLA-{{ gene.gene }}</a>
+        {% if gene.HLA == 'true' %}
+        <a href="/pages/genes/gene_pages/{{ gene.gene }}/"
+          >HLA-{{ gene.gene }}</a
+        >
         {% else %}
-          <a href="/pages/genes/gene_pages/{{ gene.gene }}.html">{{ gene.gene }}</a>
+        <a href="/pages/genes/gene_pages/{{ gene.gene }}/">{{ gene.gene }}</a>
         {% endif %}
       </td>
       <td>{{ gene.previous_equivalent }}</td>
       <td>{{ gene.description }}</td>
       <td>{{ gene.function }}</td>
-      {% if gene.HLA == 'yes' %}
-      <td class="text-nowrap"><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">HLA-{{ gene.gene }} Refs</a></td>
+      {% if gene.HLA == 'true' %}
+      <td class="text-nowrap">
+        <a href="/pages/genes/gene_refs/{{ gene.gene }}_refs/"
+          >HLA-{{ gene.gene }} Refs</a
+        >
+      </td>
       {% else %}
-      <td class="text-nowrap"><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">{{ gene.gene }} Refs</a></td>
+      <td class="text-nowrap">
+        <a href="/pages/genes/gene_refs/{{ gene.gene }}_refs/"
+          >{{ gene.gene }} Refs</a
+        >
+      </td>
       {% endif %}
     </tr>
     {% endfor %}
-</tbody>
+  </tbody>
 </table>

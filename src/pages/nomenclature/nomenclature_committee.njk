@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-permalink: /pages/nomenclature/nomenclature_committee.html
+permalink: pages/nomenclature/nomenclature_committee/
 eleventyNavigation:
   parent: "Nomenclature"
   key: "Nomenclature Committee"
@@ -8,3 +8,37 @@ title: Nomenclature Committee
 h1: Nomenclature Committee
 p: The WHO Nomenclature Committee for Factors of the HLA System comprises the following individuals
 ---
+{% from "src/components/paragraph.njk" import paragraph %}
+{% from "src/components/list.njk" import list %}
+
+{{ paragraph('The WHO Nomenclature Committee for Factors of the HLA System comprises the following individuals:') }}
+{{ list([
+      "Steven G. E. Marsh (<em>Chair</em>)",
+      "Walter F. Bodmer",
+      "Mary N. Carrington",
+      "Henry A. Erlich",
+      "Marcelo Fernández-Vina",
+      "Sebastiaan Heidt",
+      "Rhonda Holdsworth",
+      "Wolfgang R. Mayr",
+      "Martin Maiers",
+      "Peter Parham",
+      "Effie W. Petersdorf",
+      "James Robinson",
+      "John Trowsdale",
+      "Ronald E. Bontrop (<em>Co-opted Member</em>)"
+    ], false, false) }}
+{{ paragraph('Any correspondence regarding HLA Nomenclature should be addressed to:') }}
+
+{{ list([
+      "Professor Steven G. E. Marsh",
+      "<h1>Anthony Nolan Research Institute (CHANGE THIS)</h1>",
+      "UPDATE ADDRESS",
+      "UPDATE ADDRESS",
+      "UPDATE POSTCODE",
+      "UPDATE CITY?",
+      "United Kingdom",
+      "Tel. (44) 20 7284-8321",
+      "Fax. (44) 20 7284-8331",
+      "E-mail: <a href='steven.marsh@ucl.ac.uk'>steven.marsh@ucl.ac.uk</a>"
+    ], false, true) }}

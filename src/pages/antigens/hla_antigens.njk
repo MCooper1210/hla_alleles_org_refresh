@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-permalink: /pages/antigens/hla_antigens.html
+permalink: pages/antigens/hla_antigens/
 eleventyNavigation:
   parent: "Antigens"
   key: "HLA Antigens"
@@ -12,6 +12,7 @@ p: All recognised serological and cellular HLA specificities
 {% from "src/components/table.njk" import table %}
 
 {% set headers = ["A", "B", "C", "D", "DR", "DQ", "DP"] %}
+
 {% set rows = [
   ["A1", "B5", "Cw1", "Dw1", "DR1", "DQ1", "DPw1"],
   ["A2", "B7", "Cw2", "Dw2", "DR103", "DQ2", "DPw2"],

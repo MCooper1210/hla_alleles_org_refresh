@@ -1,23 +1,37 @@
 ---
 layout: base.njk
-permalink: "/pages/genes/gene_pages/{{ item.gene }}.html"
+eleventyComputed:
+  permalink: "/pages/genes/gene_pages/{{ item.gene }}/"
+  eleventyNavigation:
+    parent: [{ title: "Genes List", url: "/pages/genes/genes_list/" }]
+    key: "{{ item.HLA == 'true' and '/ HLA-' + item.gene or item.gene }}"
+    title: { { item.gene } }
 pagination:
   data: genes
   size: 1
   alias: item
 excludeWelcome: true
-
 ---
 
+{% from "src/components/paragraph.njk" import paragraph %}
 <div class="background_naming">
-  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+  <div
+    class="welcome d-flex justify-content-center align-items-center"
+    style="height: 40vh"
+  >
     <section class="welcome container py-3">
+      {% if gene.HLA == 'true' %}
+      <h1 class="text-center text-dark">HLA-{{ item.gene }}</h1>
+      {% else %}
       <h1 class="text-center text-dark">{{ item.gene }}</h1>
+      {% endif %}
       <h2 class="text-center text-dark">{{ item.description }}</h2>
-      {% if item.ref != "none" %}
+      {% if item.function != "none" %}
       <p class="text-center text-dark">{{ item.function }}</p>
+      {% endif %} {% if item.detailed_description != "none" %}
+      <p class="text-center text-dark">{{ item.detailed_description }}</p>
       {% endif %}
     </section>
+    {{ paragraph('') }}
   </div>
 </div>
-
